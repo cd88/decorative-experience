@@ -1,0 +1,27 @@
+{
+  "name": "decex",
+  "version": "1.0.0",
+  "description": "SPA built w next and react",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/celloworld/decorative-experience.git"
+  },
+  "author": "Cameron Donahue",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/celloworld/decorative-experience/issues"
+  },
+  "homepage": "https://github.com/celloworld/decorative-experience#readme",
+  "dependencies": {
+    "next": "^6.0.3",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  }
+}
