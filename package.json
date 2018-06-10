@@ -2,12 +2,15 @@
   "name": "decex",
   "version": "1.0.0",
   "description": "SPA built w next and react",
+  "homepage": "https://celloworld.github.io/decorative-experience",
   "main": "index.js",
   "scripts": {
     "test": "test",
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -18,10 +21,12 @@
   "bugs": {
     "url": "https://github.com/celloworld/decorative-experience/issues"
   },
-  "homepage": "https://github.com/celloworld/decorative-experience#readme",
   "dependencies": {
     "next": "^6.0.3",
     "react": "^16.4.0",
     "react-dom": "^16.4.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
   }
 }
